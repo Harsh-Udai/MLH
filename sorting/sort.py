@@ -3,7 +3,7 @@
 
 l=[5,4,3,2,1,12,99]
 
-# Bubble sort
+# Bubble sort - complexity O(n^2)
 
 for i in range(0,len(l)):
     for j in range(0,len(l)-1):
@@ -15,5 +15,5 @@ for i in range(0,len(l)):
 print(l)
 
 # we can also use the inbuilt functions as well
-
+# complexity: O(nlogn) in worst case
 print(sorted(l))
