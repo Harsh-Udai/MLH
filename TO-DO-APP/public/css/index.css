@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+div{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+}
+.wrapper{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+button,input{
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    cursor: pointer;
+}
